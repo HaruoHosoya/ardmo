@@ -4,19 +4,13 @@ This is the official reference pytorch implementation of ARDMO (Abstract Relatio
 
 # Dependencies
 
-matplotlib==3.5.2
-
-numpy==1.23.1
-
-scikit_learn==1.1.3
-
-scipy==1.9.1
-
-torch==1.12.1
-
-torchvision==0.13.1
-
-tqdm==4.64.1
+* matplotlib==3.5.2
+* numpy==1.23.1
+* scikit_learn==1.1.3
+* scipy==1.9.1
+* torch==1.12.1
+* torchvision==0.13.1
+* tqdm==4.64.1
 
 # Dataset generation
 

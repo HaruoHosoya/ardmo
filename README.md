@@ -5,11 +5,17 @@ This is the official reference pytorch implementation of ARDMO (Abstract Relatio
 # Dependencies
 
 matplotlib==3.5.2
+
 numpy==1.23.1
+
 scikit_learn==1.1.3
+
 scipy==1.9.1
+
 torch==1.12.1
+
 torchvision==0.13.1
+
 tqdm==4.64.1
 
 # Dataset generation
@@ -17,6 +23,7 @@ tqdm==4.64.1
 First, to train models for 1D or 2D task, you need to generate datasets.  For this, type:
 
  python prep_data1d.py
+ 
  python prep_data2d.py
  
 This will create dataset files in a new folder datasets in the project folder.
@@ -59,6 +66,7 @@ For training just like in the paper, type:
 For analysis, type:
 
  python main2d.py --dataset ds2d_cifar_1000_4_700 --model_id model_2d_1 --gpu 0 --mode eval-full
+ 
  python main2d.py --dataset ds2d_cifar_1000_4_700 --model_id model_2d_1 --gpu 0 --mode show
 
 See other options by:
